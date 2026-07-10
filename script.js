@@ -1,10 +1,28 @@
 (function () {
+  var trackEvent = function (name, parameters) {
+    if (typeof window.gtag === "function") {
+      window.gtag("event", name, parameters);
+    }
+  };
+
   var comparison = document.getElementById("comparison");
   var range = document.getElementById("comparison-range");
+  var comparisonStarted = false;
   if (comparison && range) {
     range.addEventListener("input", function () {
       comparison.style.setProperty("--reveal", range.value + "%");
       range.setAttribute("aria-valuetext", range.value + "% of the AI concept visible");
+      if (!comparisonStarted) {
+        comparisonStarted = true;
+        trackEvent("comparison_interaction", {
+          comparison_value: Number(range.value)
+        });
+      }
+    });
+    range.addEventListener("change", function () {
+      trackEvent("comparison_complete", {
+        comparison_value: Number(range.value)
+      });
     });
   }
 
@@ -24,13 +42,19 @@
 
   document.querySelectorAll(".store-link").forEach(function (link) {
     link.addEventListener("click", function () {
+      var store = link.getAttribute("data-store");
+      trackEvent("store_click", {
+        store: store,
+        source: source,
+        campaign: campaign,
+        link_url: link.href
+      });
       try {
         localStorage.setItem("garden:last-store-click", JSON.stringify({
-          store: link.getAttribute("data-store"), source: source, campaign: campaign,
+          store: store, source: source, campaign: campaign,
           clickedAt: new Date().toISOString()
         }));
       } catch (_error) {}
     });
   });
 })();
-
