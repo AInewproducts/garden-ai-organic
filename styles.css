@@ -187,6 +187,21 @@ h1 em { color: var(--terracotta); font-weight: 500; }
 .style-card h3 { font-family: Georgia, "Times New Roman", serif; font-size: 30px; font-weight: 500; margin-bottom: 8px; }
 .style-card p { margin: 0; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; opacity: .84; }
 
+.idea-index { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 18px 0 108px; }
+.idea-index .section-heading { border-top: 1px solid var(--line); padding-top: 78px; }
+.idea-index-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.idea-index-card { min-height: 300px; display: flex; flex-direction: column; justify-content: flex-end; padding: 24px; border-radius: 24px; color: white; overflow: hidden; position: relative; background-image: linear-gradient(180deg, rgba(8, 30, 21, .05), rgba(8, 30, 21, .84)), url("assets/garden-before-after.png"); background-size: 200% 100%; box-shadow: 0 12px 34px rgba(20, 60, 45, .1); transition: transform .2s ease, box-shadow .2s ease; }
+.idea-index-card:hover { transform: translateY(-4px); box-shadow: 0 22px 40px rgba(20, 60, 45, .18); }
+.idea-index-card.small-yard { background-position: right center; }
+.idea-index-card.easy-care { background-position: 89% center; filter: saturate(.95); }
+.idea-index-card.zen-guide { background-position: 100% center; filter: saturate(.62) contrast(1.05); }
+.idea-index-card > * { position: relative; z-index: 1; }
+.idea-index-card span, .related-grid span { color: #d2e2c9; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.idea-index-card h3 { font: 500 30px/1.03 Georgia, serif; margin: 12px 0 10px; letter-spacing: -.025em; }
+.idea-index-card p { margin: 0; max-width: 260px; font-size: 13px; line-height: 1.55; color: rgba(255,255,255,.8); }
+.idea-index-card b { display: inline-flex; gap: 8px; margin-top: 20px; font-size: 12px; }
+.idea-index-card i { font-style: normal; color: var(--leaf); }
+
 .how-section { display: grid; grid-template-columns: .82fr 1.18fr; gap: 100px; align-items: start; border-top: 1px solid var(--line); }
 .how-intro { position: sticky; top: 36px; }
 .how-intro h2 { margin-bottom: 22px; }
@@ -217,6 +232,44 @@ footer { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 26px 0;
 footer p { margin: 0; color: #66786f; font-size: 11px; }
 footer a { text-decoration: underline; text-underline-offset: 3px; }
 
+.seo-header { border-bottom: 1px solid var(--line); }
+.case-hero, .case-section, .related-section { width: min(1100px, calc(100% - 40px)); margin-left: auto; margin-right: auto; }
+.case-hero { display: grid; grid-template-columns: .85fr 1.15fr; gap: 72px; align-items: center; padding: 74px 0 96px; }
+.case-copy h1 { font-size: clamp(46px, 5vw, 68px); margin-bottom: 24px; }
+.case-copy > p { color: #52655c; font-size: 17px; line-height: 1.75; }
+.case-copy .case-disclosure { margin-top: 22px; padding-left: 14px; border-left: 2px solid var(--terracotta); font-size: 13px; color: #64766d; }
+.case-figure { margin: 0; }
+.case-figure img { display: block; width: 100%; border-radius: 22px; box-shadow: 0 24px 60px rgba(20, 60, 45, .18); }
+.case-figure figcaption { margin-top: 12px; color: #65766d; font-size: 11px; line-height: 1.55; }
+.case-section { padding: 84px 0; border-top: 1px solid var(--line); }
+.case-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 100px; align-items: start; }
+.case-grid h2, .split-note h2, .faq-section h2 { margin: 14px 0 0; font: 500 clamp(38px, 4vw, 54px)/1.04 Georgia, serif; letter-spacing: -.04em; }
+.idea-list { border-top: 1px solid var(--line); }
+.idea-list article { display: grid; grid-template-columns: 54px 1fr; gap: 18px; padding: 28px 0; border-bottom: 1px solid var(--line); }
+.idea-list article > span { color: var(--terracotta); font: 500 14px Georgia, serif; }
+.idea-list h3 { margin-bottom: 9px; font: 500 25px Georgia, serif; }
+.idea-list p, .split-note p { margin: 0; color: #617269; line-height: 1.72; }
+.split-note { display: grid; grid-template-columns: .8fr 1.2fr; gap: 100px; background: var(--cream); width: 100%; padding: 84px max(20px, calc((100vw - 1100px) / 2)); }
+.split-note > * { max-width: 510px; }
+.faq-section { padding-bottom: 90px; }
+.faq-section > .section-kicker { margin-bottom: 2px; }
+.faq-section h2 { margin-bottom: 34px; }
+.faq-section details { border-top: 1px solid var(--line); padding: 22px 0; }
+.faq-section details:last-child { border-bottom: 1px solid var(--line); }
+.faq-section summary { cursor: pointer; list-style: none; padding-right: 30px; position: relative; font: 500 22px Georgia, serif; }
+.faq-section summary::-webkit-details-marker { display: none; }
+.faq-section summary::after { content: "+"; position: absolute; right: 0; top: -4px; color: var(--terracotta); font: 500 28px Georgia, serif; }
+.faq-section details[open] summary::after { content: "−"; }
+.faq-section details p { max-width: 760px; margin: 14px 0 0; color: #617269; line-height: 1.7; }
+.related-section { padding: 78px 0 98px; border-top: 1px solid var(--line); }
+.related-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 22px; }
+.related-grid a { min-height: 190px; padding: 24px; border-radius: 20px; color: white; background: var(--forest); display: flex; flex-direction: column; justify-content: end; transition: transform .2s ease, background .2s ease; }
+.related-grid a:nth-child(2) { background: #7a614e; }
+.related-grid a:hover { transform: translateY(-3px); background: var(--deep); }
+.related-grid strong { margin: 12px 0 9px; font: 500 29px/1.05 Georgia, serif; }
+.related-grid em { color: rgba(255,255,255,.77); font-style: normal; font-size: 13px; line-height: 1.55; }
+.case-closing { padding-top: 94px; }
+
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; gap: 34px; margin-top: 8px; }
   .hero-copy { padding-bottom: 0; }
@@ -224,6 +277,9 @@ footer a { text-decoration: underline; text-underline-offset: 3px; }
   .section-heading, .how-section { grid-template-columns: 1fr; gap: 36px; }
   .how-intro { position: static; }
   .style-card { min-height: 350px; }
+  .idea-index-grid { grid-template-columns: 1fr; }
+  .case-hero, .case-grid, .split-note { grid-template-columns: 1fr; gap: 40px; }
+  .split-note { width: 100%; padding: 74px max(20px, calc((100vw - 1100px) / 2)); }
 }
 
 @media (max-width: 680px) {
@@ -245,6 +301,21 @@ footer a { text-decoration: underline; text-underline-offset: 3px; }
   .section-heading { margin-bottom: 28px; }
   .style-grid { grid-template-columns: 1fr; }
   .style-card { min-height: 380px; }
+  .idea-index { width: min(100% - 28px, 1180px); padding-bottom: 78px; }
+  .idea-index .section-heading { padding-top: 62px; }
+  .idea-index-card { min-height: 270px; }
+  .case-hero, .case-section, .related-section { width: min(100% - 28px, 1100px); }
+  .case-hero { padding: 44px 0 64px; gap: 32px; }
+  .case-copy h1 { font-size: 46px; }
+  .case-copy > p { font-size: 15px; }
+  .case-section { padding: 64px 0; }
+  .case-grid h2, .split-note h2, .faq-section h2 { font-size: 38px; }
+  .split-note { padding: 64px 28px; }
+  .idea-list article { grid-template-columns: 42px 1fr; }
+  .idea-list h3 { font-size: 23px; }
+  .related-grid { grid-template-columns: 1fr; }
+  .related-section { padding: 62px 0 72px; }
+  .case-closing { padding-top: 78px; }
   .how-section { gap: 48px; }
   .step { grid-template-columns: 48px 1fr; }
   .closing-section { padding: 82px 14px 76px; }

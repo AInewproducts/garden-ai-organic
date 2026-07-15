@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ainewproducts.github.io/garden-ai-organic/sitemap.xml
