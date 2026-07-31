@@ -260,6 +260,7 @@ footer a { text-decoration: underline; text-underline-offset: 3px; }
 .idea-list p, .split-note p { margin: 0; color: #617269; line-height: 1.72; }
 .split-note { display: grid; grid-template-columns: .8fr 1.2fr; gap: 100px; background: var(--cream); width: 100%; padding: 84px max(20px, calc((100vw - 1100px) / 2)); }
 .split-note > * { max-width: 510px; }
+.split-note p + p { margin-top: 22px; }
 .faq-section { padding-bottom: 90px; }
 .faq-section > .section-kicker { margin-bottom: 2px; }
 .faq-section h2 { margin-bottom: 34px; }
