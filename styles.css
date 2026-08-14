@@ -201,6 +201,8 @@ h1 em { color: var(--terracotta); font-weight: 500; }
 .idea-index-card.shade-guide { background-image: linear-gradient(180deg, rgba(8, 30, 21, .05), rgba(8, 30, 21, .84)), url("assets/seo/shade-garden-layout.jpg"); background-position: center 38%; background-size: cover; }
 .idea-index-card.modern-guide { background-image: linear-gradient(180deg, rgba(8, 30, 21, .05), rgba(8, 30, 21, .84)), url("assets/seo/modern-garden-before-after.jpg"); background-position: 78% center; background-size: cover; }
 .idea-index-card.patio-guide { background-image: linear-gradient(180deg, rgba(8, 30, 21, .05), rgba(8, 30, 21, .84)), url("assets/seo/patio-makeover-before-after.jpg"); background-position: 78% center; background-size: cover; }
+.idea-index-card.courtyard-guide { background-image: linear-gradient(180deg, rgba(8, 30, 21, .05), rgba(8, 30, 21, .84)), url("assets/seo/courtyard-garden-before-after.png"); background-position: 78% center; background-size: cover; }
+.idea-index-card.no-grass-guide { background-image: linear-gradient(180deg, rgba(8, 30, 21, .05), rgba(8, 30, 21, .84)), url("assets/seo/no-grass-backyard-before-after.png"); background-position: 80% center; background-size: cover; }
 .idea-index-card > * { position: relative; z-index: 1; }
 .idea-index-card span, .related-grid span { color: #d2e2c9; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .idea-index-card h3 { font: 500 30px/1.03 Georgia, serif; margin: 12px 0 10px; letter-spacing: -.025em; }
