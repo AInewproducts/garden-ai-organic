@@ -221,6 +221,7 @@ h1 em { color: var(--terracotta); font-weight: 500; }
 .idea-index-card.batch-garden-office-landscaping { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/garden-office-landscaping-before-after.jpg"); background-position: 82% center; background-size: cover; }
 .idea-index-card.batch-outdoor-dining-garden { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/outdoor-dining-garden-before-after.jpg"); background-position: 82% center; background-size: cover; }
 .idea-index-card.batch-cottage-garden { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/cottage-garden-before-after.jpg"); background-position: 82% center; background-size: cover; }
+.idea-index-card.batch-renter-friendly-garden { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/renter-friendly-garden-before-after.jpg"); background-position: 82% center; background-size: cover; }
 .idea-index-card > * { position: relative; z-index: 1; }
 .idea-index-card span, .related-grid span { color: #d2e2c9; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .idea-index-card h3 { font: 500 30px/1.03 Georgia, serif; margin: 12px 0 10px; letter-spacing: -.025em; }
