@@ -227,6 +227,7 @@ h1 em { color: var(--terracotta); font-weight: 500; }
 .idea-index-card[href="ideas/windy-garden/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/windy-garden-before-after.jpg"); background-position: 78% center; background-size: cover; }
 .idea-index-card[href="ideas/mature-tree-layout/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/mature-tree-layout-before-after.jpg"); background-position: 76% center; background-size: cover; }
 .idea-index-card[href="ideas/utility-box-landscaping/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/utility-box-landscaping-before-after.jpg"); background-position: 77% center; background-size: cover; }
+.idea-index-card[href="ideas/winter-garden-structure/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/winter-garden-structure-before-after.jpg"); background-position: 77% center; background-size: cover; }
 .idea-index-card span, .related-grid span { color: #d2e2c9; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .idea-index-card h3 { font: 500 30px/1.03 Georgia, serif; margin: 12px 0 10px; letter-spacing: -.025em; }
 .idea-index-card p { margin: 0; max-width: 260px; font-size: 13px; line-height: 1.55; color: rgba(255,255,255,.8); }
