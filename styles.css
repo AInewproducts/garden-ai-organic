@@ -230,6 +230,11 @@ h1 em { color: var(--terracotta); font-weight: 500; }
 .idea-index-card[href="ideas/winter-garden-structure/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/winter-garden-structure-before-after.jpg"); background-position: 77% center; background-size: cover; }
 .idea-index-card[href="ideas/sensory-garden-design/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/sensory-garden-design-before-after.jpg"); background-position: 77% center; background-size: cover; }
 .idea-index-card[href="ideas/garden-clothesline-layout/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/garden-clothesline-layout-before-after.jpg"); background-position: 75% center; background-size: cover; }
+.idea-index-card[href="ideas/landscaping-around-air-conditioner/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/landscaping-around-air-conditioner-before-after.jpg"); background-position: center; background-size: cover; }
+.idea-index-card[href="ideas/front-yard-bin-screen/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/front-yard-bin-screen-before-after.jpg"); background-position: 76% center; background-size: cover; }
+.idea-index-card[href="ideas/pergola-vs-umbrella/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/pergola-vs-umbrella-before-after.jpg"); background-position: 76% center; background-size: cover; }
+.idea-index-card[href="ideas/raised-vs-in-ground-beds/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/raised-vs-in-ground-beds-before-after.jpg"); background-position: 76% center; background-size: cover; }
+.idea-index-card[href="ideas/garden-heavy-rain-check/"] { background-image: linear-gradient(180deg, rgba(8,30,21,.05), rgba(8,30,21,.84)), url("assets/seo/garden-heavy-rain-check-before-after.jpg"); background-position: 76% center; background-size: cover; }
 .idea-index-card span, .related-grid span { color: #d2e2c9; font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .idea-index-card h3 { font: 500 30px/1.03 Georgia, serif; margin: 12px 0 10px; letter-spacing: -.025em; }
 .idea-index-card p { margin: 0; max-width: 260px; font-size: 13px; line-height: 1.55; color: rgba(255,255,255,.8); }
@@ -276,7 +281,7 @@ footer a { text-decoration: underline; text-underline-offset: 3px; }
 .case-copy > p { color: #52655c; font-size: 17px; line-height: 1.75; }
 .case-copy .case-disclosure { margin-top: 22px; padding-left: 14px; border-left: 2px solid var(--terracotta); font-size: 13px; color: #64766d; }
 .case-figure { margin: 0; }
-.case-figure img { display: block; width: 100%; border-radius: 22px; box-shadow: 0 24px 60px rgba(20, 60, 45, .18); }
+.case-figure img { display: block; width: 100%; height: auto; border-radius: 22px; box-shadow: 0 24px 60px rgba(20, 60, 45, .18); }
 .case-figure figcaption { margin-top: 12px; color: #65766d; font-size: 11px; line-height: 1.55; }
 .case-section { padding: 84px 0; border-top: 1px solid var(--line); }
 .case-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 100px; align-items: start; }
